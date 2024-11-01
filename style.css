@@ -17,7 +17,7 @@ body {
 }
 
 .faq-container {
-    width: 90%;
+    /* width: 90%; */
     max-width: 500px;
     background-color: #fff;
     padding: 20px;
@@ -26,6 +26,9 @@ body {
     justify-content: center;
     align-items: center;
    
+}
+.faq-gap{
+    gap: 15px;
 }
 .info{
     color: #8B6990;
@@ -37,6 +40,9 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 12px;
 
 }
 .bg-image{
@@ -71,6 +77,8 @@ h1 {
 /* FAQ Question Button Styling */
 .faq-item {
     border-bottom: 1px solid #e2e2e2;
+    padding-top:15px;
+    margin-bottom: 12px;
 }
 
 .faq-question {
@@ -87,6 +95,8 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 8px;
+    padding-bottom: 25px;
+    
 }
 
 .faq-question:hover {
